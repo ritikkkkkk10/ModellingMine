@@ -33,37 +33,20 @@ A comprehensive implementation of various maze generation and solving algorithms
 
 ## 🏗️ Project Structure
 
-maze_project/
-├── 📁 config/ # Configuration files
-│ ├── settings.py # Global project settings
-│ └── nn_config.py # Neural network hyperparameters
-├── 📁 maze/ # Core maze modules
-│ ├── Maze_builder.py # Maze class and utilities
-│ ├── generators/ # Maze generation algorithms
-│ │ ├── init.py
-│ │ ├── recursive_backtracker.py
-│ │ └── prims.py # Prim's algorithm implementation
-│ └── solvers/ # Maze solving algorithms
-│ ├── solver_base.py # Base solver interface
-│ ├── traditional/ # Classical algorithms
-│ │ ├── dfs.py # Depth-First Search
-│ │ ├── bfs.py # Breadth-First Search
-│ │ └── astar.py # A* Search
-│ ├── genetic/ # Evolutionary algorithm
-│ │ └── ga_solver.py # Genetic Algorithm
-│ └── neural/ # Neural network solvers
-│ ├── nn_config.py # Network configuration
-│ ├── dqn_network.py # DQN architecture
-│ ├── dqn_agent.py # Training agent
-│ ├── replay_buffer.py # Experience replay
-│ └── dqn_solver.py # Main DQN solver
-├── 📁 examples/ # Example scripts
-│ ├── solve_with_ga.py # Genetic Algorithm demo
-│ ├── solve_with_dqn.py # Neural Network demo
-│ └── compare_solver.py # Performance comparison
-├── 📁 visualization/ # Rendering and display
-│ └── renderer.py # Maze visualization
-└── 📄 requirements.txt # Python dependencies
+
+### 📂 Module Descriptions
+
+| Module | Purpose | Key Components |
+|--------|---------|----------------|
+| **config/** | Project configuration and settings | Global settings, neural network hyperparameters |
+| **maze/generators/** | Maze creation algorithms | Recursive Backtracker, Prim's Algorithm |
+| **maze/solvers/traditional/** | Classical pathfinding algorithms | DFS, BFS, A* implementations |
+| **maze/solvers/genetic/** | Evolutionary computation approach | Genetic algorithm with fitness optimization |
+| **maze/solvers/neural/** | Machine learning solutions | Deep Q-Network with PyTorch |
+| **examples/** | Demonstration scripts | Algorithm usage examples and comparisons |
+| **visualization/** | Rendering and display utilities | Maze visualization and result plotting |
+| **output/** | Generated content | Solved maze images and performance data |
+
 
 
 ## 🧠 Algorithm Details
