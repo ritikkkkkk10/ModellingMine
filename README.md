@@ -1,7 +1,3 @@
-Got it! You want the README rewritten so that it **frames the project as a mining tunnel/pathway modeling system** — focusing on ventilation, cooling, and optimal paths in a mine, instead of abstract maze solving. Here’s a fully revised version:
-
----
-
 # 🏗️ Mining Tunnel Simulation & Path Optimization
 
 A comprehensive implementation of mining tunnel modeling and path optimization algorithms, designed to simulate ventilation, cooling, and efficient navigation through complex underground mines.
