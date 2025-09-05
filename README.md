@@ -110,9 +110,3 @@ A comprehensive implementation of mining tunnel modeling and path optimization a
 ## 🤝 Contributing
 
 Contributions are welcome! Submit pull requests or open issues to improve mining tunnel simulation and optimization.
-
----
-
-If you want, I can also **update the images in the README** (currently showing generic mazes) to **reflect mine tunnels, ventilation paths, and cooling simulation**, so it looks fully like a mining simulation project.
-
-Do you want me to do that next?
